@@ -3,6 +3,8 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
+import { borderColor } from '@mui/system';
+
 import '../themes.css'
 
 export default function PokemonCard({name, image, types}) {
@@ -14,7 +16,7 @@ export default function PokemonCard({name, image, types}) {
   }
 
   return (
-    <Card sx={{ maxWidth: 345,background: `var(--${types[0].type.name})`}}>
+    <Card sx={{ maxWidth: 345,background: `var(--${types[0].type.name})`,border:3,  borderColor: `var(--${types[0].type.name}Border)`}}>
         <CardMedia
           component="img"
           height="100%"

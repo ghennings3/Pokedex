@@ -52,13 +52,13 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 export default function Navbar({pokemonFilter}) {
   return (
     <Box sx={{ flexGrow: 1, marginBottom: '2em' }}>
-      <AppBar position="static" sx={{backgroundColor: 'black'}}>
+      <AppBar position="static" sx={{backgroundColor: '#4a8dc8'}}>
         <Toolbar>
           <Box display='flex' justifyContent='space-between' width='100%'>
             <Box display='flex' alignItems='center'>
-              <Typography sx={{color: 'blue', fontFamily: 'saira', fontSize: '1.2em'}}>/*</Typography>
+              <Typography sx={{color: 'black', fontFamily: 'saira', fontSize: '1.2em'}}>/*</Typography>
               <Typography sx={{fontFamily: 'saira', fontSize: '1.2em'}}>G.H DEV</Typography>
-              <Typography sx={{color: 'blue', fontFamily: 'saira', fontSize: '1.2em'}}>*/</Typography>
+              <Typography sx={{color: 'black', fontFamily: 'saira', fontSize: '1.2em'}}>*/</Typography>
             </Box>
           <Box component="img" src="/assets/poke-logo.png" height="3em" />
             <Search sx={{display: 'flex', alignItems: 'center'}} onChange={(e) => pokemonFilter(e.target.value.toLowerCase())}>

@@ -17,6 +17,25 @@
   --rock: #a38c21;
   --steel: #5695A3;
   --water: #539DDF;
+
+  --grassBorder: #4c9746;
+  --bugBorder: #83a927;
+  --darkBorder: #504e57;
+  --dragonBorder: #0a5eb4;
+  --electricBorder: #d9c346;
+  --fairyBorder: #d681cf;
+  --fightingBorder: #bd3b55;
+  --fireBorder: #c6792a;
+  --flyingBorder: #90a8d4;
+  --ghostBorder: #5562a9;
+  --groundBorder: #c46f45;
+  --iceBorder: #69bbad;
+  --normalBorder: #90918f;
+  --poisonBorder: #a459ba;
+  --psychicBorder: #e52797;
+  --rockBorder: #927e1d;
+  --steelBorder: #4d8692;
+  --waterBorder: #4a8dc8;
 }
 
 
